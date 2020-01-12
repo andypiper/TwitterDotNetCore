@@ -31,6 +31,8 @@ namespace TwitterDotNetCore
       HttpWebRequest request = (HttpWebRequest)WebRequest.Create(client.RequestUrl);
       request.Headers.Add("Authorization", auth);
 
+      Console.WriteLine("Calling " + REQUEST_URL);
+
       // make the call and print the string value of the response JSON
       HttpWebResponse response = (HttpWebResponse)request.GetResponse();
       Stream dataStream = response.GetResponseStream();
