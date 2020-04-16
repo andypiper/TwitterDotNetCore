@@ -1,5 +1,7 @@
 # TwitterDotNetCore
 
+[![license](https://img.shields.io/badge/License-Apache%202.0-green.svg)](https://github.com/andypiper/TwitterDotNetCore/blob/master/LICENSE) [![Twitter Follow](https://badgen.net/twitter/follow/andypiper)](https://twitter.com/intent/follow?screen_name=andypiper)
+
 A simple sample app using DotNet Core and the Twitter API.
 
 By default, the code targets the [Twitter Developer Labs](https://t.co/labs) API, requesting @jack's first Tweet (Tweet ID 20), and the same fields that are returned in API v1.1. This can be changed by editing the value of `REQUEST_URL` in `Program.cs`.
