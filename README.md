@@ -2,7 +2,7 @@
 
 A simple sample app using DotNet Core and the Twitter API.
 
-By default, the code targets the [Twitter Developer Labs](https://t.co.labs) API, requesting @jack's first Tweet (Tweet ID 20). This can be changed by editing the value of `REQUEST_URL` in `Program.cs`.
+By default, the code targets the [Twitter Developer Labs](https://t.co/labs) API, requesting @jack's first Tweet (Tweet ID 20), and the same fields that are returned in API v1.1. This can be changed by editing the value of `REQUEST_URL` in `Program.cs`.
 
 ## Directions
 
