@@ -11,7 +11,7 @@ namespace TwitterDotNetCore
     static void Main(string[] args)
     {
       // convenient to load keys and tokens from a config file for testing
-      // edit .env.sample to add your keys and tokens (no quotation marks)
+      // edit .env.sample (and rename to .env) to add your keys and tokens (no quotation marks)
       DotNetEnv.Env.Load();
 
       string CONSUMER_KEY = System.Environment.GetEnvironmentVariable("CONSUMER_KEY");
