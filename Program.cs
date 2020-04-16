@@ -20,7 +20,7 @@ namespace TwitterDotNetCore
       string ACCESS_TOKEN_SECRET = System.Environment.GetEnvironmentVariable("ACCESS_TOKEN_SECRET");
 
       // this is the endpoint we will be calling
-      string REQUEST_URL = "https://api.twitter.com/labs/1/tweets?ids=20&format=detailed";
+      string REQUEST_URL = "https://api.twitter.com/labs/2/tweets/20?tweet.fields=author_id,created_at,entities,source,public_metrics,lang,geo&expansions=author_id&user.fields=created_at,description,entities,id,location,name,pinned_tweet_id,profile_image_url,protected,url,username,verified,public_metrics";
 
       // Create a new connection to the OAuth server, with a helper method
       OAuthRequest client = OAuthRequest.ForProtectedResource("GET", CONSUMER_KEY, CONSUMER_TOKEN, ACCESS_TOKEN, ACCESS_TOKEN_SECRET);
