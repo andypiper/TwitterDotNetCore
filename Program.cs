@@ -26,7 +26,7 @@ namespace TwitterDotNetCore
 
       // this is the endpoint we will be calling
       StringBuilder apiPath = new StringBuilder("https://api.twitter.com");
-      apiPath.Append("/labs/2/tweets");
+      apiPath.Append("/2/tweets");
       apiPath.AppendFormat("?ids={0}", tweetID);
       apiPath.Append("&tweet.fields=attachments,author_id,context_annotations,created_at,entities,geo,id,in_reply_to_user_id,lang,possibly_sensitive,public_metrics,referenced_tweets,source,text,withheld");
       apiPath.Append("&media.fields=duration_ms,height,media_key,preview_image_url,type,url,width");

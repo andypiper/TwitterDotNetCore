@@ -1,10 +1,10 @@
 # TwitterDotNetCore
 
-[![license](https://img.shields.io/badge/License-Apache%202.0-green.svg)](https://github.com/andypiper/TwitterDotNetCore/blob/master/LICENSE) [![Labs v2](https://img.shields.io/static/v1?label=Twitter%20API&message=Developer%20Labs%20v2&color=794BC4&style=flat&logo=Twitter)](https://developer.twitter.com/en/docs/labs/overview/versioning) [![Twitter Follow](https://badgen.net/twitter/follow/andypiper)](https://twitter.com/intent/follow?screen_name=andypiper)
+[![license](https://img.shields.io/badge/License-Apache%202.0-green.svg)](https://github.com/andypiper/TwitterDotNetCore/blob/master/LICENSE) [![v2](https://img.shields.io/endpoint?url=https%3A%2F%2Ftwbadges.glitch.me%2Fbadges%2Fv2)](https://developer.twitter.com/en/docs/twitter-api/early-access) [![Twitter Follow](https://badgen.net/twitter/follow/andypiper)](https://twitter.com/intent/follow?screen_name=andypiper)
 
 A simple sample app using DotNet Core and the new Twitter API.
 
-By default, the code prompts for a Tweet ID and then *fully hydrates* that via the [Twitter Developer Labs](https://t.co/labs) API. You may also enter a comma-separated list of IDs, as the API endpoint will also handle multiple IDs (up to 100).
+By default, the code prompts for a Tweet ID and then *fully hydrates* that via the [Twitter API v2](https://developer.twitter.com/en/docs/twitter-api/early-access). You may also enter a comma-separated list of IDs, as the API endpoint will also handle multiple IDs (up to 100).
 
 To have the code request @jack's first Tweet (Tweet ID 20), and the same fields that are returned in API v1.1, comment out the `REQUEST_URL` value in `Program.cs` and uncomment the replacement in the next section.
 
@@ -13,9 +13,7 @@ Hydrating a Tweet means getting all available fields for a Tweet, given a Tweet 
 
 ## Directions
 
-[Apply for a Twitter Developer Account](https://t.co.apply-for-access), and create an app. Generate access token and access token secret via the Twitter Developer Dashboard.
-
-(optional) If using the [Twitter Developer Labs](https://t.co/labs) endpoint - as this sample does - you'll also need to have access to Labs, and to connect your app to the Tweets and Users endpoints.
+[Apply for a Twitter Developer Account](https://t.co.apply-for-access), and create a Project and an App. Generate access token and access token secret via the Twitter Developer Dashboard.
 
 Install [DotNet Core](https://dotnet.microsoft.com/download) :-)
 
