@@ -13,7 +13,7 @@ Hydrating a Tweet means getting all available fields for a Tweet, given a Tweet 
 
 ## Directions
 
-[Apply for a Twitter Developer Account](https://t.co.apply-for-access), and create a Project and an App. Generate access token and access token secret via the Twitter Developer Dashboard.
+[Sign up for Twitter API Essential Access](https://developer.twitter.com/en/portal/petition/essential/basic-info), and create a Project and an App. Generate access token and access token secret via the Twitter Developer Dashboard.
 
 Install [DotNet Core](https://dotnet.microsoft.com/download) :-)
 
